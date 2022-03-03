@@ -31,7 +31,6 @@ typedef SwagSong =
 	var splashSkin:String;
 	var validScore:Bool;
 
-	var dodgeEnabled:Bool;
 }
 
 class Song
@@ -51,7 +50,6 @@ class Song
 	public var player3:String = 'gf'; //deprecated
 	public var gfVersion:String = 'gf';
 	
-	public var dodgeEnabled:Bool = false;
 
 	private static function onLoadJson(songJson:SwagSong) // Convert old charts to newest format
 	{
